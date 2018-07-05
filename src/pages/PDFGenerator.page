@@ -1,0 +1,4 @@
+<apex:page controller="DataDisplayController" renderAs="pdf">   
+   <apex:detail subject="{!$CurrentPage.parameters.id}" relatedList="true" />
+   <!-- uncomment line above to pass external Data to VF Page -->
+</apex:page>
